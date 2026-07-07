@@ -1,2 +1,4 @@
-# CN6OvtxuIXwtB7qV
-MonReader is an innovative mobile document digitization solution designed for accessibility, research, and high‑volume scanning. Built on cutting‑edge Artificial Intelligence and Computer Vision, MonReader delivers a fully automatic, fast, and high‑quality document scanning experience.
+# MonReader
+
+**MonReader** is an AI-powered mobile app that delivers fast, accessible, and high-quality bulk document digitization.  
+Designed for the blind, researchers, and anyone needing efficient scanning, MonReader makes document digitization effortless.
