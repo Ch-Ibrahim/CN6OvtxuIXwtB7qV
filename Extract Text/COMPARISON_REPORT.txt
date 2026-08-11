@@ -1,0 +1,159 @@
+======================================================================
+OCR COMPARISON REPORT: EasyOCR vs Tesseract
+Languages: Arabic + English
+Date: 2026-08-11 08:46:15
+======================================================================
+
+
+[IMAGE 1] IMG_6208.jpg
+----------------------------------------------------------------------
+
+📊 EasyOCR:
+   Time: 162.33s
+   Confidence: 71.38%
+   Words: 242
+   Arabic: 79.3%
+   English: 0.0%
+   Preview: ثم مشيا
+بلغا
+يحركهاء واضطجعت تحت قدميهء وما زالاكذلك
+يدها من فمه يجاول أن يقبلها فأبت فقبلها في
+بلغا المنزل فلما أرادا أن يفترقا
+جبينها فارتعدت  وألقت عليه نظرة عتب أخذت من نفسه مأخذها وانصرفت .
+)١٧( ...
+
+📊 Tesseract:
+   Time: 3.71s
+   Words: 169
+   Arabic: 62.5%
+   English: 6.6%
+   Preview: 1 يمر كهاء واضطجعت تحت قدميه؛ وما زالا كذلك حتى بلغا الشاطئى» ثم مشيا حتى
+‎ete ?‏ فل أرادا أن يفترقا أدنى يدها من فمه يحاول أن يقبلها فأبت» فقبلها في
+2 8 8 أفارتعدت» ‎ade nals‏ نظرة عتب أخحذت من ‎FORT...
+
+⚖️ Comparison:
+   Word difference: EasyOCR +73 vs Tesseract
+   Speed: EasyOCR 162.33s vs Tesseract 3.71s
+   ✓ Tesseract is 4278.2% faster
+
+----------------------------------------------------------------------
+
+[IMAGE 2] IMG_6209.jpg
+----------------------------------------------------------------------
+
+📊 EasyOCR:
+   Time: 148.30s
+   Confidence: 75.51%
+   Words: 273
+   Arabic: 77.3%
+   English: 0.0%
+   Preview: قدميه فتركها مكانها ومضى لسبيله وهو يقول : إنك
+تحت
+تعلمين .
+)٢٢( الخبر
+إلى مصباح ضعيف يقرأ
+دخلت اجنفياف « على »استيفن   في غرفته
+كتاب فأعطته كتاب سيدها ورجعت أدراجهاء وكان أول كتاب جاءه من
+ وهويفض غلا...
+
+📊 Tesseract:
+   Time: 3.47s
+   Words: 164
+   Arabic: 50.5%
+   English: 8.7%
+   Preview: ظ
+‎(Vy)‏ الخبر | 000
+‎st. / 8‏ 10 6 55 5 1 7 ع |
+, دخلت «جنفياف» على «استيفن» في غرفته وقد جلس إلى مصباح ضعيف يقرأ ا
+| فى ‎ts‏ قأعطته كتاب سيدها ورجعت أدراجهاء وكان أول ‎AS‏ جاءه.من |
+«مولر»» فمر ‎gay...
+
+⚖️ Comparison:
+   Word difference: EasyOCR +109 vs Tesseract
+   Speed: EasyOCR 148.30s vs Tesseract 3.47s
+   ✓ Tesseract is 4175.8% faster
+
+----------------------------------------------------------------------
+
+[IMAGE 3] IMG_6212.jpg
+----------------------------------------------------------------------
+
+📊 EasyOCR:
+   Time: 70.78s
+   Confidence: 72.85%
+   Words: 68
+   Arabic: 0.3%
+   English: 80.4%
+   Preview: Il arrive quion grandisse
+sans meme le savoir
+Comme une graine enfouie dans la terre rude,
+qui pousse a |abri des regards 
+On croit marcher seul, et pourtant
+des mains invisibles sculptent notre silen...
+
+📊 Tesseract:
+   Time: 2.19s
+   Words: 68
+   Arabic: 3.4%
+   English: 63.4%
+   Preview: ys
+: Il arrive qu’on grandisse a
+= sans mémele savoir... 0
+Comme une graine enfouie dans la terre rude, ..
+qui pousse al’abri des regards. 0000
+| On croit marcher seul, et pourtant, |
+des mains invisi...
+
+⚖️ Comparison:
+   Word difference: EasyOCR +0 vs Tesseract
+   Speed: EasyOCR 70.78s vs Tesseract 2.19s
+   ✓ Tesseract is 3126.3% faster
+
+----------------------------------------------------------------------
+
+[IMAGE 4] IMG_6213.jpg
+----------------------------------------------------------------------
+
+📊 EasyOCR:
+   Time: 134.11s
+   Confidence: 74.25%
+   Words: 221
+   Arabic: 0.1%
+   English: 78.8%
+   Preview: Si tu choisis de suivre la
+voie
+du savoir  prepare-toi
+8
+renoncer a tout ce qui, autrefois, paraissait doux et facile 
+Il te faudra dire adieu
+4UX
+apparences flatteuses,
+8
+ces
+habits qui te donnaient ...
+
+📊 Tesseract:
+   Time: 3.97s
+   Words: 217
+   Arabic: 6.4%
+   English: 61.7%
+   Preview: Si tu choisis de suivre la voie du savoir, prépare-toi a.
+renoncer a tout ce qui, autrefois, paraissait doux et facile.
+
+|| te faudra dire adieu aux apparences flatteuses, a ces |
+habits qui te donnai...
+
+⚖️ Comparison:
+   Word difference: EasyOCR +4 vs Tesseract
+   Speed: EasyOCR 134.11s vs Tesseract 3.97s
+   ✓ Tesseract is 3279.2% faster
+
+----------------------------------------------------------------------
+
+======================================================================
+SUMMARY
+======================================================================
+Total images processed: 4
+Languages: Arabic + English (Bilingual)
+EasyOCR: Better accuracy, slower
+Tesseract: Faster, needs preprocessing
